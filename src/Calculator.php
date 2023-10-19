@@ -8,7 +8,7 @@ class Calculator
     }
 
     public function evaluate($num1, $num2){
-        $mezua2="Hau mezu bat da";
+        private $mezua2="Hau mezu bat da";
         $func = $this->operator;
         return $this->$func($num1, $num2);
     }
@@ -25,7 +25,6 @@ class Calculator
     public function multiply($num1, $num2){
         return $num1 * $num2;
     }
-
 
 }
 
